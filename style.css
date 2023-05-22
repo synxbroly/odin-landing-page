@@ -4,8 +4,52 @@
     padding: 0;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     width:1100px;
     margin:0 auto;
+
+}
+header{
+    background-color: #1f2937;
+
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    width: 50%;
     
+}
+a{
+    color:#f9faf8;
+    text-decoration: none;
+    font-size: 18px;
+
+
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 0px ;
+    
+}
+.links ul {
+    display: flex;
+   justify-content: flex-end;
+   
+    
+}
+.links{
+    width: 50%;
+}
+.links ul li{
+    padding-left: 30px;
 }
